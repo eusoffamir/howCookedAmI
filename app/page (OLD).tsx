@@ -299,6 +299,9 @@ function ShareCard({
     <div
       ref={cardRef}
       style={{
+        position: "fixed",
+        left: "-9999px",
+        top: 0,
         width: "400px",
         height: "711px", // 9:16 story ratio
         background: gradMap[result.tier],
@@ -609,13 +612,8 @@ function ResultScreen({ result }: { result: Result }) {
         />
       )}
 
-      {/* hidden share card — zero-size wrapper keeps it out of layout flow */}
-      <div
-        aria-hidden="true"
-        style={{ position: "absolute", width: 0, height: 0, overflow: "hidden", top: 0, left: 0 }}
-      >
-        <ShareCard result={result} cardRef={cardRef} />
-      </div>
+      {/* hidden share card */}
+      <ShareCard result={result} cardRef={cardRef} />
 
       {/* header */}
       <p className="text-zinc-500 text-xs uppercase tracking-widest mb-6">

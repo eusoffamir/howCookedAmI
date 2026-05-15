@@ -636,11 +636,6 @@ function ResultScreen({ result }: { result: Result }) {
         {result.emoji} {result.status}
       </div>
 
-      {/* status */}
-      <h1 className="text-3xl font-black mt-5 mb-1 text-center">
-        {result.status}
-      </h1>
-
       {/* roast card */}
       <div
         className={`mt-4 w-full max-w-sm rounded-2xl border p-5 text-center ${cfg.badge} backdrop-blur-sm`}

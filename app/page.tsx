@@ -91,7 +91,7 @@ function buildResult(score: number): Result {
       score,
       tier: "toasted",
       status: "Lightly toasted.",
-      roast: "One bad quiz away from a motivational speech era.",
+      roast: "One bad quiz away from failing this class.",
       emoji: "🥴",
     };
   if (score < 85)
@@ -106,7 +106,7 @@ function buildResult(score: number): Result {
     score,
     tier: "gone",
     status: "Academically deceased.",
-    roast: "You are communicating with your GPA through thoughts and prayers.",
+    roast: "GGWP, see you next semester.",
     emoji: "💀",
   };
 }

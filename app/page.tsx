@@ -501,7 +501,7 @@ function GlitchScreen({ onDone }: { onDone: () => void }) {
 
       {phase === "reveal" && (
         <div className="text-center text-white font-mono text-2xl font-black animate-bounce">
-          💀 FOUND YOU 💀
+          💀 RIP 💀
         </div>
       )}
 

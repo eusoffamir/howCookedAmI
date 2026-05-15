@@ -120,11 +120,12 @@ export default function Home() {
   }
 
   const handleAnswer = (answer: string) => {
-    const updated = [...answers, answer];
-    setAnswers(updated);
-
-    // 🔥 INSTANT 100% COOKED (BUT UI STILL WORKS)
+    // 🔥 INSTANT 100% COOKED EASTER EGG
     if (answer === "What exam?") {
+      setAnswers([...answers, answer]);
+
+      setStep(questions.length); // force quiz to "end state"
+
       setResult({
         score: 100,
         status: "Academically finished.",
@@ -134,6 +135,9 @@ export default function Home() {
 
       return;
     }
+
+    const updated = [...answers, answer];
+    setAnswers(updated);
 
     if (step < questions.length - 1) {
       setStep(step + 1);

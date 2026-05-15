@@ -363,19 +363,6 @@ function ShareCard({
         }}
       />
 
-      {/* status */}
-      <div
-        style={{
-          color: "white",
-          fontSize: "26px",
-          fontWeight: 800,
-          marginBottom: "12px",
-          textAlign: "center",
-        }}
-      >
-        {result.status}
-      </div>
-
       {/* roast */}
       <div
         style={{

@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 How Cooked Am I?
 
-## Getting Started
+A viral, meme-style AI-inspired quiz app that tells students how academically "cooked" they are before exams.
 
-First, run the development server:
+Built for fun, panic, and extremely relatable student suffering.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 😂 What is this?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a joke web app where students answer 5 simple questions and get:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔥 A "Cooked Score" (0–100)
+- 🧠 A dramatic academic status
+- 💀 A funny roast
+- 📱 A shareable result screen
 
-## Learn More
+Example:
 
-To learn more about Next.js, take a look at the following resources:
+> 🔥 87% COOKED  
+> "Your academic strategy currently depends on miracles and caffeine."
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎮 How it works
 
-## Deploy on Vercel
+Answer 5 questions like:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- When is your exam?
+- Have you started studying?
+- How many lectures did you skip?
+- How much sleep are you getting?
+- Are you actually okay?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Then the app calculates your fate.
+
+---
+
+## 💡 Features
+
+- ⚡ Instant results (no loading pain)
+- 🎭 Funny Gen-Z style roasts
+- 📊 Cooked score system
+- 📱 Mobile-friendly UI
+- 🔁 Retake quiz button
+- 🎨 Dark “doom aesthetic” theme
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Deployed on Vercel
+
+---
+
+## 🚀 Live Demo
+
+(Add your link here after deploying)
+

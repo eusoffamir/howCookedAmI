@@ -123,6 +123,18 @@ export default function Home() {
     const updated = [...answers, answer];
     setAnswers(updated);
 
+    // 🔥 INSTANT 100% COOKED (BUT UI STILL WORKS)
+    if (answer === "What exam?") {
+      setResult({
+        score: 100,
+        status: "Academically finished.",
+        roast:
+          "You discovered the exam at the same time as the exam discovered you.",
+      });
+
+      return;
+    }
+
     if (step < questions.length - 1) {
       setStep(step + 1);
     } else {

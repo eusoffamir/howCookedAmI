@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "How Cooked Am I 🔥",
+  title: "How Cooked Am I",
   description: "Find out how cooked you are 💀",
   icons: {
     icon: "/favicon-v2.png",

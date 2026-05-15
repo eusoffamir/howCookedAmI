@@ -363,6 +363,19 @@ function ShareCard({
         }}
       />
 
+      {/* status */}
+      <div
+        style={{
+          color: "white",
+          fontSize: "26px",
+          fontWeight: 800,
+          marginBottom: "12px",
+          textAlign: "center",
+        }}
+      >
+        {result.status}
+      </div>
+
       {/* roast */}
       <div
         style={{
@@ -620,8 +633,13 @@ function ResultScreen({ result }: { result: Result }) {
       <div
         className={`mt-3 px-4 py-1.5 rounded-full border text-sm font-bold uppercase tracking-wider ${cfg.badge}`}
       >
-        {result.emoji} {result.tier === "gone" ? "Academically deceased" : result.tier === "fried" ? "Deep fried" : result.tier === "toasted" ? "Lightly toasted" : result.tier === "mid" ? "Medium rare" : "Suspiciously fine"}
+        {result.emoji} {result.status}
       </div>
+
+      {/* status */}
+      <h1 className="text-3xl font-black mt-5 mb-1 text-center">
+        {result.status}
+      </h1>
 
       {/* roast card */}
       <div

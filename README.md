@@ -59,5 +59,5 @@ Then the app calculates your fate.
 
 ## 🚀 Live Demo
 
-(Add your link here after deploying)
+(https://how-cooked-am-i.vercel.app/)
 
